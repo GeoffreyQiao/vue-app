@@ -33,5 +33,14 @@ jspm_packages
 # Optional npm cache directory
 .npm
 
+# test
+.test/unit/coverage*
+.test/e2e/reports*
+
 # Optional REPL history
 .node_repl_history
+
+# eslint
+build/*.js
+config/*.js
+./dist

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TEST PAGE</title>
+    </head>
+    <body>
+
+    </body>
+    <script type="text/javascript">
+    /**
+     *
+     *
+     *  @method    getKey
+     *  @param     {String}    k    字符串参数
+     *  @return    {String}    合成字符串参数
+     */
+    var getKey = k => `a key named ${k}`;
+
+    const obj = {
+      id: 5,
+      name: 'San Francisco',
+      [getKey('enabled')]: true,
+    };
+
+    console.log(obj);
+
+    </script>
+</html>

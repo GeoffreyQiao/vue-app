@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "parser": "babel-eslint",
+    "ecmaFeatures": {
+       "jsx": true
+    },
+    "rules": {
+        "semi": [2, "always"],
+        "quotes": [2, "single"]
+    },
+    "plugins": [
+            "vue"
+        ],
+    "extends": "vue"
+}
